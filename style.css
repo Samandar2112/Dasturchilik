@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap')
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-image: url("./Rasm.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.navbar {
+    width: 100%;
+    padding: 30px 40px;
+border-bottom: 2px solid pink;
+}
+.navbar_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.navbar_item{
+    font-weight: bold;
+    color: white;
+}
+.hero {
+    width: 100%;
+}
+.hero_title {
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: "Gabriela", serif;
+    font-weight: bold;
+    color: white;
+
+}
+.hero_button {
+    margin-left: 250px;
+margin-top: 50px;
+padding: 20px 40px;
+background: none;
+border: 2px solid pink;
+font-size: 24px;
+font-weight: bold;
+color: white;
+}
